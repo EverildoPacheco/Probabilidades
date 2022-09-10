@@ -34,6 +34,8 @@ namespace estadistica {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Label^ label1;
+	protected:
 
 	private:
 		/// <summary>
@@ -48,16 +50,30 @@ namespace estadistica {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
+			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Arial Rounded MT Bold", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label1->Location = System::Drawing::Point(206, 35);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(108, 32);
+			this->label1->TabIndex = 0;
+			this->label1->Text = L"MIGUE";
 			// 
 			// principal
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(578, 421);
+			this->Controls->Add(this->label1);
 			this->Name = L"principal";
 			this->Text = L"principal";
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion
