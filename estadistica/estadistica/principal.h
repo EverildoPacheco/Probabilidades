@@ -34,7 +34,9 @@ namespace estadistica {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::TextBox^ textBox1;
+	private: System::Windows::Forms::Button^ button1;
+	protected:
+
 	protected:
 
 
@@ -54,7 +56,7 @@ namespace estadistica {
 		/// <summary>
 		/// Variable del diseñador necesaria.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -63,32 +65,31 @@ namespace estadistica {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
-			// textBox1
+			// button1
 			// 
-			this->textBox1->Location = System::Drawing::Point(75, 77);
-			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(347, 20);
-			this->textBox1->TabIndex = 0;
-			this->textBox1->Text = L"sd";
-			this->textBox1->TextChanged += gcnew System::EventHandler(this, &principal::textBox1_TextChanged);
-			// 
+			this->button1->Location = System::Drawing::Point(102, 65);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(320, 120);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"button1";
+			this->button1->UseVisualStyleBackColor = true;
+
 			// principal
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(434, 342);
-			this->Controls->Add(this->textBox1);
-			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->Controls->Add(this->button1);
+			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"principal";
 			this->Text = L"principal";
 			this->ResumeLayout(false);
-			this->PerformLayout();
-
-		}
+		
+	}
 #pragma endregion
 
-	};
+};
 }
