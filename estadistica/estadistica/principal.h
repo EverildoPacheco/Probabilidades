@@ -34,17 +34,36 @@ namespace estadistica {
 				delete components;
 			}
 		}
+<<<<<<< HEAD
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::Button^ button1;
+=======
+	private: System::Windows::Forms::Button^ button1;
+	protected:
+
+	protected:
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> d76ba2bd0900c8a0b84da8f90a6e1c53b6d0f870
 	protected:
 
 	private:
 		/// <summary>
 		/// Variable del diseñador necesaria.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -53,6 +72,7 @@ namespace estadistica {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+<<<<<<< HEAD
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(principal::typeid));
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
@@ -106,11 +126,25 @@ namespace estadistica {
 			this->button1->TabIndex = 3;
 			this->button1->Text = L"Iniciar";
 			this->button1->UseVisualStyleBackColor = true;
+=======
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->SuspendLayout();
 			// 
+			// button1
+>>>>>>> d76ba2bd0900c8a0b84da8f90a6e1c53b6d0f870
+			// 
+			this->button1->Location = System::Drawing::Point(102, 65);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(320, 120);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"button1";
+			this->button1->UseVisualStyleBackColor = true;
+
 			// principal
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+<<<<<<< HEAD
 			this->BackColor = System::Drawing::Color::White;
 			this->ClientSize = System::Drawing::Size(808, 494);
 			this->Controls->Add(this->button1);
@@ -118,15 +152,19 @@ namespace estadistica {
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->label1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+=======
+			this->ClientSize = System::Drawing::Size(434, 342);
+			this->Controls->Add(this->button1);
+>>>>>>> d76ba2bd0900c8a0b84da8f90a6e1c53b6d0f870
 			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"principal";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"principal";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
-			this->PerformLayout();
-
-		}
+		
+	}
 #pragma endregion
-	};
+
+};
 }
