@@ -1,3 +1,12 @@
-﻿  principal.cpp
-  principal.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
-  estadistica.vcxproj -> C:\Users\Miguel 07\source\repos\probabilidades\estadistica\x64\Debug\estadistica.exe
+﻿  inicio.cpp
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\inicio.h(2,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(2,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(156,28): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  menu.cpp
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(2,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(156,28): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  Teorema1.cpp
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(156,28): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  Generando código...
+  inicio.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  estadistica.vcxproj -> C:\Users\Usuario\source\repos\probabilidades\estadistica\x64\Debug\estadistica.exe
