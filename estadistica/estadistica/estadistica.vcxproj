@@ -127,6 +127,7 @@
     <ClCompile Include="inicio.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="Teorema1.cpp" />
+    <ClCompile Include="Teorema2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inicio.h">
@@ -136,6 +137,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Teorema1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Teorema2.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -148,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Teorema1.resx">
       <DependentUpon>Teorema1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teorema2.resx">
+      <DependentUpon>Teorema2.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
