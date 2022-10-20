@@ -8,3 +8,4 @@ C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\x64\Debug\e
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\x64\Debug\estadistica.vcxproj.GenerateResource.cache
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\x64\Debug\estadistica.menu.resources
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\x64\Debug\estadistica.Teorema1.resources
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\x64\Debug\estadistica.Teorema2.resources

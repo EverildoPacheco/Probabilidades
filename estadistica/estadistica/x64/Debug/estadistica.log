@@ -1,12 +1,22 @@
-﻿  Teorema1.cpp
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(156,28): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+﻿  Teorema2.cpp
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(199,25): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(200,26): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(225,40): warning C4244: 'argumento': conversión de '__int64' a 'int'; posible pérdida de datos
   inicio.cpp
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\inicio.h(2,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(2,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(156,28): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(3,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(199,25): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(200,26): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(225,40): warning C4244: 'argumento': conversión de '__int64' a 'int'; posible pérdida de datos
   menu.cpp
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(2,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(156,28): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(3,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(199,25): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(200,26): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(225,40): warning C4244: 'argumento': conversión de '__int64' a 'int'; posible pérdida de datos
   Generando código...
   inicio.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
   estadistica.vcxproj -> C:\Users\Usuario\source\repos\probabilidades\estadistica\x64\Debug\estadistica.exe
