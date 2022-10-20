@@ -1,7 +1,8 @@
 #pragma once
 #include"Teorema1.h";
 #include"Teorema2.h";
-
+#include"Teorena3.h";
+#include"Teorema6.h";
 namespace estadistica {
 
 	using namespace System;
@@ -103,6 +104,7 @@ namespace estadistica {
 			this->btbT3->TabIndex = 3;
 			this->btbT3->Text = L"Teorema 3";
 			this->btbT3->UseVisualStyleBackColor = true;
+			this->btbT3->Click += gcnew System::EventHandler(this, &menu::btbT3_Click);
 			// 
 			// btbT2
 			// 
@@ -122,6 +124,7 @@ namespace estadistica {
 			this->btbT6->TabIndex = 5;
 			this->btbT6->Text = L"Teorema 6";
 			this->btbT6->UseVisualStyleBackColor = true;
+			this->btbT6->Click += gcnew System::EventHandler(this, &menu::btbT6_Click);
 			// 
 			// btbT7
 			// 
@@ -157,6 +160,14 @@ namespace estadistica {
 	}
 private: System::Void btbT2_Click(System::Object^ sender, System::EventArgs^ e) {
 	estadistica::Teorema2^ teorema = gcnew estadistica::Teorema2();
+	teorema->Show();
+}
+private: System::Void btbT3_Click(System::Object^ sender, System::EventArgs^ e) {
+	estadistica::Teorena3^ teorema = gcnew estadistica::Teorena3();
+	teorema->Show();
+}
+private: System::Void btbT6_Click(System::Object^ sender, System::EventArgs^ e) {
+	estadistica::Teorema6^ teorema = gcnew estadistica::Teorema6();
 	teorema->Show();
 }
 };

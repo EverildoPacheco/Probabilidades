@@ -71,14 +71,14 @@ namespace estadistica {
 			// 
 			// ingreso
 			// 
-			this->ingreso->Location = System::Drawing::Point(160, 103);
+			this->ingreso->Location = System::Drawing::Point(182, 145);
 			this->ingreso->Name = L"ingreso";
 			this->ingreso->Size = System::Drawing::Size(159, 20);
 			this->ingreso->TabIndex = 0;
 			// 
 			// resultado
 			// 
-			this->resultado->Location = System::Drawing::Point(190, 255);
+			this->resultado->Location = System::Drawing::Point(212, 297);
 			this->resultado->Multiline = true;
 			this->resultado->Name = L"resultado";
 			this->resultado->Size = System::Drawing::Size(86, 40);
@@ -86,7 +86,7 @@ namespace estadistica {
 			// 
 			// total
 			// 
-			this->total->Location = System::Drawing::Point(201, 161);
+			this->total->Location = System::Drawing::Point(223, 203);
 			this->total->Name = L"total";
 			this->total->Size = System::Drawing::Size(75, 23);
 			this->total->TabIndex = 2;
@@ -106,7 +106,7 @@ namespace estadistica {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(50, 106);
+			this->label2->Location = System::Drawing::Point(72, 148);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(95, 13);
 			this->label2->TabIndex = 4;
@@ -115,7 +115,7 @@ namespace estadistica {
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(157, 224);
+			this->label3->Location = System::Drawing::Point(179, 266);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(163, 13);
 			this->label3->TabIndex = 5;
@@ -134,7 +134,7 @@ namespace estadistica {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(457, 332);
+			this->ClientSize = System::Drawing::Size(459, 381);
 			this->Controls->Add(this->label4);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);

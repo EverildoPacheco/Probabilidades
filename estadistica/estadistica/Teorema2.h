@@ -44,6 +44,10 @@ namespace estadistica {
 	private: System::Windows::Forms::Label^ label5;
 	private: System::Windows::Forms::TextBox^ txtResultado;
 	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::Label^ lblMostrar;
+	private: System::Windows::Forms::Label^ lblMostrar2;
+	private: System::Windows::Forms::Label^ label6;
+	private: System::Windows::Forms::Label^ lblFormula;
 	protected:
 
 	private:
@@ -69,6 +73,10 @@ namespace estadistica {
 			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->txtResultado = (gcnew System::Windows::Forms::TextBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->lblMostrar = (gcnew System::Windows::Forms::Label());
+			this->lblMostrar2 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->lblFormula = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -137,7 +145,7 @@ namespace estadistica {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(172, 271);
+			this->label5->Location = System::Drawing::Point(159, 306);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(168, 13);
 			this->label5->TabIndex = 8;
@@ -145,14 +153,14 @@ namespace estadistica {
 			// 
 			// txtResultado
 			// 
-			this->txtResultado->Location = System::Drawing::Point(219, 301);
+			this->txtResultado->Location = System::Drawing::Point(206, 336);
 			this->txtResultado->Name = L"txtResultado";
 			this->txtResultado->Size = System::Drawing::Size(77, 20);
 			this->txtResultado->TabIndex = 7;
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(304, 174);
+			this->button1->Location = System::Drawing::Point(290, 174);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(93, 50);
 			this->button1->TabIndex = 9;
@@ -160,11 +168,50 @@ namespace estadistica {
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Teorema2::button1_Click);
 			// 
+			// lblMostrar
+			// 
+			this->lblMostrar->AutoSize = true;
+			this->lblMostrar->Location = System::Drawing::Point(203, 251);
+			this->lblMostrar->Name = L"lblMostrar";
+			this->lblMostrar->Size = System::Drawing::Size(10, 13);
+			this->lblMostrar->TabIndex = 10;
+			this->lblMostrar->Text = L".";
+			// 
+			// lblMostrar2
+			// 
+			this->lblMostrar2->AutoSize = true;
+			this->lblMostrar2->Location = System::Drawing::Point(192, 277);
+			this->lblMostrar2->Name = L"lblMostrar2";
+			this->lblMostrar2->Size = System::Drawing::Size(10, 13);
+			this->lblMostrar2->TabIndex = 11;
+			this->lblMostrar2->Text = L".";
+			// 
+			// label6
+			// 
+			this->label6->AutoSize = true;
+			this->label6->Location = System::Drawing::Point(180, 264);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(79, 13);
+			this->label6->TabIndex = 12;
+			this->label6->Text = L"____________";
+			// 
+			// lblFormula
+			// 
+			this->lblFormula->AutoSize = true;
+			this->lblFormula->Location = System::Drawing::Point(134, 264);
+			this->lblFormula->Name = L"lblFormula";
+			this->lblFormula->Size = System::Drawing::Size(10, 13);
+			this->lblFormula->TabIndex = 13;
+			this->lblFormula->Text = L".";
+			// 
 			// Teorema2
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(491, 374);
+			this->ClientSize = System::Drawing::Size(491, 390);
+			this->Controls->Add(this->lblFormula);
+			this->Controls->Add(this->lblMostrar2);
+			this->Controls->Add(this->lblMostrar);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->txtResultado);
@@ -175,6 +222,7 @@ namespace estadistica {
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
+			this->Controls->Add(this->label6);
 			this->Name = L"Teorema2";
 			this->Text = L"Teorema2";
 			this->Load += gcnew System::EventHandler(this, &Teorema2::Teorema2_Load);
@@ -199,6 +247,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	num = Convert::ToDouble(this->txtN->Text);
 	num2 = Convert::ToDouble(this->txtR->Text);
 
+
 	x = 1;
 
 	for (i = 1; i <= num; i++)
@@ -220,6 +269,10 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	}
 
 	combinacion = x / k;
+
+	this->lblMostrar->Text = (num+ " ! ");
+	this->lblMostrar2->Text = ( "( " + num + " - " + num2 + " ) " + "! ");
+	this->lblFormula->Text = (num + "P" + num2);
 
 	this->txtResultado->Text = Convert::ToString(combinacion);
 }
