@@ -80,20 +80,20 @@ namespace estadistica {
 			// 
 			// btbT5
 			// 
-			this->btbT5->Location = System::Drawing::Point(373, 97);
+			this->btbT5->Location = System::Drawing::Point(391, 156);
 			this->btbT5->Name = L"btbT5";
 			this->btbT5->Size = System::Drawing::Size(108, 53);
 			this->btbT5->TabIndex = 1;
-			this->btbT5->Text = L"Teorema 5";
+			this->btbT5->Text = L"Teorema 10";
 			this->btbT5->UseVisualStyleBackColor = true;
 			// 
 			// btbT4
 			// 
-			this->btbT4->Location = System::Drawing::Point(373, 28);
+			this->btbT4->Location = System::Drawing::Point(391, 224);
 			this->btbT4->Name = L"btbT4";
 			this->btbT4->Size = System::Drawing::Size(108, 53);
 			this->btbT4->TabIndex = 2;
-			this->btbT4->Text = L"Teorema 4";
+			this->btbT4->Text = L"Teorema 11";
 			this->btbT4->UseVisualStyleBackColor = true;
 			// 
 			// btbT3
@@ -118,7 +118,7 @@ namespace estadistica {
 			// 
 			// btbT6
 			// 
-			this->btbT6->Location = System::Drawing::Point(373, 170);
+			this->btbT6->Location = System::Drawing::Point(391, 38);
 			this->btbT6->Name = L"btbT6";
 			this->btbT6->Size = System::Drawing::Size(108, 53);
 			this->btbT6->TabIndex = 5;
@@ -128,7 +128,7 @@ namespace estadistica {
 			// 
 			// btbT7
 			// 
-			this->btbT7->Location = System::Drawing::Point(373, 253);
+			this->btbT7->Location = System::Drawing::Point(391, 97);
 			this->btbT7->Name = L"btbT7";
 			this->btbT7->Size = System::Drawing::Size(108, 53);
 			this->btbT7->TabIndex = 6;

@@ -34,7 +34,10 @@ namespace estadistica {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Button^ btbInicio;
+
+	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::Button^ button2;
+
 	protected:
 
 	private:
@@ -50,34 +53,73 @@ namespace estadistica {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->btbInicio = (gcnew System::Windows::Forms::Button());
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(inicio::typeid));
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
-			// btbInicio
+			// button1
 			// 
-			this->btbInicio->Location = System::Drawing::Point(188, 176);
-			this->btbInicio->Name = L"btbInicio";
-			this->btbInicio->Size = System::Drawing::Size(130, 69);
-			this->btbInicio->TabIndex = 0;
-			this->btbInicio->Text = L"INICIAR";
-			this->btbInicio->UseVisualStyleBackColor = true;
-			this->btbInicio->Click += gcnew System::EventHandler(this, &inicio::btbInicio_Click);
+			this->button1->AutoSizeMode = System::Windows::Forms::AutoSizeMode::GrowAndShrink;
+			this->button1->BackColor = System::Drawing::Color::Transparent;
+			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Jokerman", 36, System::Drawing::FontStyle::Italic, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button1->Location = System::Drawing::Point(82, 165);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(255, 156);
+			this->button1->TabIndex = 1;
+			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &inicio::button1_Click);
+			// 
+			// button2
+			// 
+			this->button2->BackColor = System::Drawing::Color::MediumOrchid;
+			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button2->ForeColor = System::Drawing::Color::Black;
+			this->button2->Location = System::Drawing::Point(156, 424);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(104, 31);
+			this->button2->TabIndex = 2;
+			this->button2->Text = L"ACERCA DE ";
+			this->button2->UseVisualStyleBackColor = false;
+			this->button2->Click += gcnew System::EventHandler(this, &inicio::button2_Click);
 			// 
 			// inicio
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(536, 409);
-			this->Controls->Add(this->btbInicio);
+			this->BackColor = System::Drawing::Color::White;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
+			this->ClientSize = System::Drawing::Size(605, 511);
+			this->Controls->Add(this->button2);
+			this->Controls->Add(this->button1);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"inicio";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"inicio";
+			this->TransparencyKey = System::Drawing::Color::Transparent;
+			this->WindowState = System::Windows::Forms::FormWindowState::Minimized;
+			this->Load += gcnew System::EventHandler(this, &inicio::inicio_Load);
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
 	private: System::Void btbInicio_Click(System::Object^ sender, System::EventArgs^ e) {
+		//estadistica::menu^ inicio = gcnew estadistica::menu();
+		//inicio->Show();
+	}
+	private: System::Void inicio_Load(System::Object^ sender, System::EventArgs^ e) {
+
+
+	}
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		estadistica::menu^ inicio = gcnew estadistica::menu();
 		inicio->Show();
+		
 	}
-	};
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+};
 }
