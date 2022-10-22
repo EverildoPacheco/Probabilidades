@@ -260,11 +260,12 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		for (int i = 1; i <= numero; i++) {
 			factoria = factoria * i;
 		}
+		this->lblMostrar->Text = ("n! = " + numero + "!");
+		this->resultado->Text = Convert::ToString(factoria);
 	}
 
 
-	this->lblMostrar->Text = ("n! = "+numero + "!");
-	this->resultado->Text = Convert::ToString(factoria);
+	
 }
 private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 

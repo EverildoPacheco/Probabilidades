@@ -258,16 +258,19 @@ private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArg
 private: System::Void pictureBox2_Click(System::Object^ sender, System::EventArgs^ e) {
 	estadistica::Teorema2^ teorema = gcnew estadistica::Teorema2();
 	teorema->Show();
+	this->Close();
 }
 private: System::Void pictureBox3_Click(System::Object^ sender, System::EventArgs^ e) {
 	estadistica::Teorena3^ teorema = gcnew estadistica::Teorena3();
 	teorema->Show();
+	this->Close();
 }
 private: System::Void pictureBox5_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void pictureBox4_Click(System::Object^ sender, System::EventArgs^ e) {
 	estadistica::Teorema6^ teorema = gcnew estadistica::Teorema6();
 	teorema->Show();
+	this->Close();
 }
 private: System::Void pictureBox9_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Close();
