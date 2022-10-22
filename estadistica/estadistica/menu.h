@@ -3,6 +3,9 @@
 #include"Teorema2.h";
 #include"Teorena3.h";
 #include"Teorema6.h";
+#include"Teorema7.h"
+#include"Teorema10.h"
+#include"Teorema11.h"
 namespace estadistica {
 
 	using namespace System;
@@ -147,6 +150,7 @@ namespace estadistica {
 			// 
 			// pictureBox5
 			// 
+			this->pictureBox5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.BackgroundImage")));
 			this->pictureBox5->ImageLocation = L"C:\\Users\\Usuario\\source\\repos\\probabilidades\\estadistica\\imagenes\\menu.\\7.png";
 			this->pictureBox5->Location = System::Drawing::Point(444, 328);
 			this->pictureBox5->Name = L"pictureBox5";
@@ -165,6 +169,7 @@ namespace estadistica {
 			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox6->TabIndex = 12;
 			this->pictureBox6->TabStop = false;
+			this->pictureBox6->Click += gcnew System::EventHandler(this, &menu::pictureBox6_Click);
 			// 
 			// pictureBox7
 			// 
@@ -175,6 +180,7 @@ namespace estadistica {
 			this->pictureBox7->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox7->TabIndex = 13;
 			this->pictureBox7->TabStop = false;
+			this->pictureBox7->Click += gcnew System::EventHandler(this, &menu::pictureBox7_Click);
 			// 
 			// pictureBox8
 			// 
@@ -266,7 +272,11 @@ private: System::Void pictureBox3_Click(System::Object^ sender, System::EventArg
 	this->Close();
 }
 private: System::Void pictureBox5_Click(System::Object^ sender, System::EventArgs^ e) {
+	estadistica::Teorema7^ teorema = gcnew estadistica::Teorema7();
+	teorema->Show();
+	this->Close();
 }
+	   
 private: System::Void pictureBox4_Click(System::Object^ sender, System::EventArgs^ e) {
 	estadistica::Teorema6^ teorema = gcnew estadistica::Teorema6();
 	teorema->Show();
@@ -276,6 +286,16 @@ private: System::Void pictureBox9_Click(System::Object^ sender, System::EventArg
 	this->Close();
 }
 private: System::Void menu_Load(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void pictureBox6_Click(System::Object^ sender, System::EventArgs^ e) {
+	estadistica::Teorema10^ teorema = gcnew estadistica::Teorema10();
+	teorema->Show();
+	this->Close();
+}
+private: System::Void pictureBox7_Click(System::Object^ sender, System::EventArgs^ e) {
+	estadistica::Teorema11^ teorema = gcnew estadistica::Teorema11();
+	teorema->Show();
+	this->Close();
 }
 };
 }

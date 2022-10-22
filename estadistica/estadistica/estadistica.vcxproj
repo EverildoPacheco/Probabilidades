@@ -127,8 +127,11 @@
     <ClCompile Include="inicio.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="Teorema1.cpp" />
+    <ClCompile Include="Teorema10.cpp" />
+    <ClCompile Include="Teorema11.cpp" />
     <ClCompile Include="Teorema2.cpp" />
     <ClCompile Include="Teorema6.cpp" />
+    <ClCompile Include="Teorema7.cpp" />
     <ClCompile Include="Teorena3.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -141,10 +144,19 @@
     <ClInclude Include="Teorema1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Teorema10.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Teorema11.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Teorema2.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Teorema6.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Teorema7.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Teorena3.h">
@@ -161,11 +173,20 @@
     <EmbeddedResource Include="Teorema1.resx">
       <DependentUpon>Teorema1.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Teorema10.resx">
+      <DependentUpon>Teorema10.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teorema11.resx">
+      <DependentUpon>Teorema11.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Teorema2.resx">
       <DependentUpon>Teorema2.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teorema6.resx">
       <DependentUpon>Teorema6.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teorema7.resx">
+      <DependentUpon>Teorema7.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teorena3.resx">
       <DependentUpon>Teorena3.h</DependentUpon>
