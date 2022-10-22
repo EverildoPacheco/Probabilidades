@@ -332,18 +332,27 @@ private: System::Void Teorema10_Load(System::Object^ sender, System::EventArgs^ 
 private: System::Void RESULTADO_Click(System::Object^ sender, System::EventArgs^ e) {
 	float primer, segundo, posiblidad, posibilidad2, result, dividiendo, valor1, final;
 
-		 posiblidad= Convert::ToDouble(this->txtPos1->Text);
-		 posibilidad2 = Convert::ToDouble(this->txtPos2->Text);
-		 primer = Convert::ToDouble(this->txtProb1->Text);
-		 segundo = Convert::ToDouble(this->txtProb2->Text);
+	if (this->txtPos1->Text == "" || this->txtPos2->Text == "" || this->txtProb1->Text == "" || this->txtProb2->Text == "") {
+
+		MessageBox::Show("El campo no puede estar vacio", "ERROR", MessageBoxButtons::OK, MessageBoxIcon::Error);
+	}
+	else
+	{
+		posiblidad = Convert::ToDouble(this->txtPos1->Text);
+		posibilidad2 = Convert::ToDouble(this->txtPos2->Text);
+		primer = Convert::ToDouble(this->txtProb1->Text);
+		segundo = Convert::ToDouble(this->txtProb2->Text);
 
 
-		 valor1 = primer * segundo;
-		 result = posiblidad * posibilidad2;
+		valor1 = primer * segundo;
+		result = posiblidad * posibilidad2;
 
-		 final = valor1 / result;
+		final = valor1 / result;
 
-		 this->txtResultado->Text = Convert::ToString(final);
+		this->txtResultado->Text = Convert::ToString(final);
+	}
+	
+	
 }
 private: System::Void pictureBox9_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Close();

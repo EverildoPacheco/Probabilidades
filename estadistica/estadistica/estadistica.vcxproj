@@ -132,6 +132,7 @@
     <ClCompile Include="Teorema2.cpp" />
     <ClCompile Include="Teorema6.cpp" />
     <ClCompile Include="Teorema7.cpp" />
+    <ClCompile Include="TeoremadeBayes.cpp" />
     <ClCompile Include="Teorena3.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +158,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Teorema7.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeoremadeBayes.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Teorena3.h">
@@ -187,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Teorema7.resx">
       <DependentUpon>Teorema7.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoremadeBayes.resx">
+      <DependentUpon>TeoremadeBayes.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teorena3.resx">
       <DependentUpon>Teorena3.h</DependentUpon>

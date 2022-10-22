@@ -6,6 +6,7 @@
   estadistica.Teorema2.resources - Embedded, ContainedInManifestFile, 
   estadistica.Teorema6.resources - Embedded, ContainedInManifestFile, 
   estadistica.Teorema7.resources - Embedded, ContainedInManifestFile, 
+  estadistica.TeoremadeBayes.resources - Embedded, ContainedInManifestFile, 
   estadistica.Teorena3.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly estadistica, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
@@ -41,6 +42,9 @@ Class estadistica.Teorema10: AutoLayout, AnsiClass, Class, Public, BeforeFieldIn
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class estadistica.Teorema11: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class estadistica.TeoremadeBayes: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class estadistica.menu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

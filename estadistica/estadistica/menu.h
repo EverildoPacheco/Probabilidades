@@ -6,6 +6,7 @@
 #include"Teorema7.h"
 #include"Teorema10.h"
 #include"Teorema11.h"
+#include"TeoremadeBayes.h"
 namespace estadistica {
 
 	using namespace System;
@@ -191,6 +192,7 @@ namespace estadistica {
 			this->pictureBox8->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox8->TabIndex = 14;
 			this->pictureBox8->TabStop = false;
+			this->pictureBox8->Click += gcnew System::EventHandler(this, &menu::pictureBox8_Click);
 			// 
 			// pictureBox9
 			// 
@@ -294,6 +296,11 @@ private: System::Void pictureBox6_Click(System::Object^ sender, System::EventArg
 }
 private: System::Void pictureBox7_Click(System::Object^ sender, System::EventArgs^ e) {
 	estadistica::Teorema11^ teorema = gcnew estadistica::Teorema11();
+	teorema->Show();
+	this->Close();
+}
+private: System::Void pictureBox8_Click(System::Object^ sender, System::EventArgs^ e) {
+	estadistica::TeoremadeBayes^ teorema = gcnew estadistica::TeoremadeBayes();
 	teorema->Show();
 	this->Close();
 }

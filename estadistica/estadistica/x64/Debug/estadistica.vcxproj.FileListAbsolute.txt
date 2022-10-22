@@ -14,3 +14,4 @@ C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\x64\Debug\e
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\x64\Debug\estadistica.Teorema7.resources
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\x64\Debug\estadistica.Teorema10.resources
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\x64\Debug\estadistica.Teorema11.resources
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\x64\Debug\estadistica.TeoremadeBayes.resources

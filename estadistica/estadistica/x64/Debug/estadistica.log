@@ -1,7 +1,9 @@
-﻿  Teorema11.cpp
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema11.h(264,30): warning C4566: el carácter representado por el nombre de carácter universal '\u2229' no se puede representar en la página de códigos actual (1252)
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema11.h(259,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema11.h(260,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+﻿  Teorema10.cpp
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(341,33): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(342,35): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(343,29): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(344,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(333,59): warning C4101: 'dividiendo': variable local sin referencia
   inicio.cpp
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\inicio.h(2,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(2,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
@@ -18,14 +20,17 @@ C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema6.h(
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema7.h(325,24): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema7.h(326,24): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema7.h(327,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(335,33): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(336,36): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(337,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(338,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(341,33): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(342,35): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(343,29): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(344,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(333,59): warning C4101: 'dividiendo': variable local sin referencia
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema11.h(264,30): warning C4566: el carácter representado por el nombre de carácter universal '\u2229' no se puede representar en la página de códigos actual (1252)
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema11.h(259,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema11.h(260,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\TeoremadeBayes.h(285,25): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\TeoremadeBayes.h(286,25): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\TeoremadeBayes.h(287,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
   menu.cpp
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(2,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(259,29): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
@@ -41,14 +46,17 @@ C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema6.h(
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema7.h(325,24): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema7.h(326,24): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema7.h(327,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(335,33): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(336,36): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(337,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(338,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(341,33): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(342,35): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(343,29): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(344,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema10.h(333,59): warning C4101: 'dividiendo': variable local sin referencia
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema11.h(264,30): warning C4566: el carácter representado por el nombre de carácter universal '\u2229' no se puede representar en la página de códigos actual (1252)
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema11.h(259,30): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema11.h(260,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\TeoremadeBayes.h(285,25): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\TeoremadeBayes.h(286,25): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\TeoremadeBayes.h(287,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
   Generando código...
   inicio.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
   estadistica.vcxproj -> C:\Users\Usuario\source\repos\probabilidades\estadistica\x64\Debug\estadistica.exe
