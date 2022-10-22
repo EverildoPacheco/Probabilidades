@@ -37,6 +37,7 @@ namespace estadistica {
 
 	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::Button^ button2;
+	private: System::Windows::Forms::PictureBox^ pictureBox9;
 
 	protected:
 
@@ -56,6 +57,8 @@ namespace estadistica {
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(inicio::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
+			this->pictureBox9 = (gcnew System::Windows::Forms::PictureBox());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox9))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// button1
@@ -85,6 +88,18 @@ namespace estadistica {
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &inicio::button2_Click);
 			// 
+			// pictureBox9
+			// 
+			this->pictureBox9->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox9->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox9.Image")));
+			this->pictureBox9->Location = System::Drawing::Point(187, 123);
+			this->pictureBox9->Name = L"pictureBox9";
+			this->pictureBox9->Size = System::Drawing::Size(51, 47);
+			this->pictureBox9->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox9->TabIndex = 16;
+			this->pictureBox9->TabStop = false;
+			this->pictureBox9->Click += gcnew System::EventHandler(this, &inicio::pictureBox9_Click);
+			// 
 			// inicio
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -93,6 +108,7 @@ namespace estadistica {
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
 			this->ClientSize = System::Drawing::Size(605, 511);
+			this->Controls->Add(this->pictureBox9);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
@@ -102,6 +118,7 @@ namespace estadistica {
 			this->TransparencyKey = System::Drawing::Color::Transparent;
 			this->WindowState = System::Windows::Forms::FormWindowState::Minimized;
 			this->Load += gcnew System::EventHandler(this, &inicio::inicio_Load);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox9))->EndInit();
 			this->ResumeLayout(false);
 
 		}
@@ -120,6 +137,9 @@ namespace estadistica {
 		
 	}
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void pictureBox9_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->Close();
 }
 };
 }

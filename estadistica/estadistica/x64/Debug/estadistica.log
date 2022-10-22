@@ -1,7 +1,7 @@
 ﻿  inicio.cpp
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\inicio.h(2,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(2,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(156,28): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(259,29): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(3,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(247,25): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(248,26): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
@@ -12,7 +12,7 @@ C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema6.h(
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema6.h(243,24): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
   menu.cpp
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(2,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
-C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(156,28): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema1.h(259,29): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\menu.h(3,9): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(247,25): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos
 C:\Users\Usuario\source\repos\probabilidades\estadistica\estadistica\Teorema2.h(248,26): warning C4244: '=': conversión de 'double' a '__int64'; posible pérdida de datos

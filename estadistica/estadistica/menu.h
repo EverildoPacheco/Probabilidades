@@ -37,14 +37,34 @@ namespace estadistica {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Button^ btbT1;
+
 	protected:
-	private: System::Windows::Forms::Button^ btbT5;
-	private: System::Windows::Forms::Button^ btbT4;
-	private: System::Windows::Forms::Button^ btbT3;
-	private: System::Windows::Forms::Button^ btbT2;
-	private: System::Windows::Forms::Button^ btbT6;
-	private: System::Windows::Forms::Button^ btbT7;
+
+
+
+
+
+
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
+	private: System::Windows::Forms::PictureBox^ pictureBox2;
+	private: System::Windows::Forms::PictureBox^ pictureBox3;
+	private: System::Windows::Forms::PictureBox^ pictureBox4;
+	private: System::Windows::Forms::PictureBox^ pictureBox5;
+	private: System::Windows::Forms::PictureBox^ pictureBox6;
+	private: System::Windows::Forms::PictureBox^ pictureBox7;
+	private: System::Windows::Forms::PictureBox^ pictureBox8;
+	private: System::Windows::Forms::PictureBox^ pictureBox9;
+
+
+
+	protected:
+
+
+
+
+
+
+
 
 	private:
 		/// <summary>
@@ -59,116 +79,200 @@ namespace estadistica {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->btbT1 = (gcnew System::Windows::Forms::Button());
-			this->btbT5 = (gcnew System::Windows::Forms::Button());
-			this->btbT4 = (gcnew System::Windows::Forms::Button());
-			this->btbT3 = (gcnew System::Windows::Forms::Button());
-			this->btbT2 = (gcnew System::Windows::Forms::Button());
-			this->btbT6 = (gcnew System::Windows::Forms::Button());
-			this->btbT7 = (gcnew System::Windows::Forms::Button());
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(menu::typeid));
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox5 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox6 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox7 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox8 = (gcnew System::Windows::Forms::PictureBox());
+			this->pictureBox9 = (gcnew System::Windows::Forms::PictureBox());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox7))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox8))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox9))->BeginInit();
 			this->SuspendLayout();
 			// 
-			// btbT1
+			// pictureBox1
 			// 
-			this->btbT1->Location = System::Drawing::Point(43, 38);
-			this->btbT1->Name = L"btbT1";
-			this->btbT1->Size = System::Drawing::Size(108, 53);
-			this->btbT1->TabIndex = 0;
-			this->btbT1->Text = L"Teorema 1";
-			this->btbT1->UseVisualStyleBackColor = true;
-			this->btbT1->Click += gcnew System::EventHandler(this, &menu::btbT1_Click);
+			this->pictureBox1->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox1->ImageLocation = L"C:\\Users\\Usuario\\source\\repos\\probabilidades\\estadistica\\imagenes\\menu\\1.png";
+			this->pictureBox1->Location = System::Drawing::Point(346, 5);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(146, 71);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox1->TabIndex = 7;
+			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &menu::pictureBox1_Click);
 			// 
-			// btbT5
+			// pictureBox2
 			// 
-			this->btbT5->Location = System::Drawing::Point(391, 156);
-			this->btbT5->Name = L"btbT5";
-			this->btbT5->Size = System::Drawing::Size(108, 53);
-			this->btbT5->TabIndex = 1;
-			this->btbT5->Text = L"Teorema 10";
-			this->btbT5->UseVisualStyleBackColor = true;
+			this->pictureBox2->ImageLocation = L"C:\\Users\\Usuario\\source\\repos\\probabilidades\\estadistica\\imagenes\\menu\\2.png";
+			this->pictureBox2->Location = System::Drawing::Point(445, 88);
+			this->pictureBox2->Name = L"pictureBox2";
+			this->pictureBox2->Size = System::Drawing::Size(131, 46);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox2->TabIndex = 8;
+			this->pictureBox2->TabStop = false;
+			this->pictureBox2->Click += gcnew System::EventHandler(this, &menu::pictureBox2_Click);
 			// 
-			// btbT4
+			// pictureBox3
 			// 
-			this->btbT4->Location = System::Drawing::Point(391, 224);
-			this->btbT4->Name = L"btbT4";
-			this->btbT4->Size = System::Drawing::Size(108, 53);
-			this->btbT4->TabIndex = 2;
-			this->btbT4->Text = L"Teorema 11";
-			this->btbT4->UseVisualStyleBackColor = true;
+			this->pictureBox3->ImageLocation = L"C:\\Users\\Usuario\\source\\repos\\probabilidades\\estadistica\\imagenes\\menu\\3.png";
+			this->pictureBox3->Location = System::Drawing::Point(445, 169);
+			this->pictureBox3->Name = L"pictureBox3";
+			this->pictureBox3->Size = System::Drawing::Size(131, 46);
+			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox3->TabIndex = 9;
+			this->pictureBox3->TabStop = false;
+			this->pictureBox3->Click += gcnew System::EventHandler(this, &menu::pictureBox3_Click);
 			// 
-			// btbT3
+			// pictureBox4
 			// 
-			this->btbT3->Location = System::Drawing::Point(43, 180);
-			this->btbT3->Name = L"btbT3";
-			this->btbT3->Size = System::Drawing::Size(108, 53);
-			this->btbT3->TabIndex = 3;
-			this->btbT3->Text = L"Teorema 3";
-			this->btbT3->UseVisualStyleBackColor = true;
-			this->btbT3->Click += gcnew System::EventHandler(this, &menu::btbT3_Click);
+			this->pictureBox4->ImageLocation = L"C:\\Users\\Usuario\\source\\repos\\probabilidades\\estadistica\\imagenes\\menu\\6.png";
+			this->pictureBox4->Location = System::Drawing::Point(445, 249);
+			this->pictureBox4->Name = L"pictureBox4";
+			this->pictureBox4->Size = System::Drawing::Size(131, 46);
+			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox4->TabIndex = 10;
+			this->pictureBox4->TabStop = false;
+			this->pictureBox4->Click += gcnew System::EventHandler(this, &menu::pictureBox4_Click);
 			// 
-			// btbT2
+			// pictureBox5
 			// 
-			this->btbT2->Location = System::Drawing::Point(43, 107);
-			this->btbT2->Name = L"btbT2";
-			this->btbT2->Size = System::Drawing::Size(108, 53);
-			this->btbT2->TabIndex = 4;
-			this->btbT2->Text = L"Teorema 2";
-			this->btbT2->UseVisualStyleBackColor = true;
-			this->btbT2->Click += gcnew System::EventHandler(this, &menu::btbT2_Click);
+			this->pictureBox5->ImageLocation = L"C:\\Users\\Usuario\\source\\repos\\probabilidades\\estadistica\\imagenes\\menu.\\7.png";
+			this->pictureBox5->Location = System::Drawing::Point(444, 328);
+			this->pictureBox5->Name = L"pictureBox5";
+			this->pictureBox5->Size = System::Drawing::Size(131, 46);
+			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox5->TabIndex = 11;
+			this->pictureBox5->TabStop = false;
+			this->pictureBox5->Click += gcnew System::EventHandler(this, &menu::pictureBox5_Click);
 			// 
-			// btbT6
+			// pictureBox6
 			// 
-			this->btbT6->Location = System::Drawing::Point(391, 38);
-			this->btbT6->Name = L"btbT6";
-			this->btbT6->Size = System::Drawing::Size(108, 53);
-			this->btbT6->TabIndex = 5;
-			this->btbT6->Text = L"Teorema 6";
-			this->btbT6->UseVisualStyleBackColor = true;
-			this->btbT6->Click += gcnew System::EventHandler(this, &menu::btbT6_Click);
+			this->pictureBox6->ImageLocation = L"C:\\Users\\Usuario\\source\\repos\\probabilidades\\estadistica\\imagenes\\menu\\10.png";
+			this->pictureBox6->Location = System::Drawing::Point(445, 409);
+			this->pictureBox6->Name = L"pictureBox6";
+			this->pictureBox6->Size = System::Drawing::Size(131, 46);
+			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox6->TabIndex = 12;
+			this->pictureBox6->TabStop = false;
 			// 
-			// btbT7
+			// pictureBox7
 			// 
-			this->btbT7->Location = System::Drawing::Point(391, 97);
-			this->btbT7->Name = L"btbT7";
-			this->btbT7->Size = System::Drawing::Size(108, 53);
-			this->btbT7->TabIndex = 6;
-			this->btbT7->Text = L"Teorema 7";
-			this->btbT7->UseVisualStyleBackColor = true;
+			this->pictureBox7->ImageLocation = L"C:\\Users\\Usuario\\source\\repos\\probabilidades\\estadistica\\imagenes\\menu\\11.png";
+			this->pictureBox7->Location = System::Drawing::Point(316, 471);
+			this->pictureBox7->Name = L"pictureBox7";
+			this->pictureBox7->Size = System::Drawing::Size(123, 68);
+			this->pictureBox7->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox7->TabIndex = 13;
+			this->pictureBox7->TabStop = false;
+			// 
+			// pictureBox8
+			// 
+			this->pictureBox8->ImageLocation = L"C:\\Users\\Usuario\\source\\repos\\probabilidades\\estadistica\\imagenes\\menu\\bayes.png";
+			this->pictureBox8->Location = System::Drawing::Point(614, 229);
+			this->pictureBox8->Name = L"pictureBox8";
+			this->pictureBox8->Size = System::Drawing::Size(47, 146);
+			this->pictureBox8->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox8->TabIndex = 14;
+			this->pictureBox8->TabStop = false;
+			// 
+			// pictureBox9
+			// 
+			this->pictureBox9->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox9->ImageLocation = L"C:\\Users\\Usuario\\source\\repos\\probabilidades\\estadistica\\imagenes\\x2.png";
+			this->pictureBox9->Location = System::Drawing::Point(654, 5);
+			this->pictureBox9->Name = L"pictureBox9";
+			this->pictureBox9->Size = System::Drawing::Size(51, 47);
+			this->pictureBox9->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox9->TabIndex = 15;
+			this->pictureBox9->TabStop = false;
+			this->pictureBox9->Click += gcnew System::EventHandler(this, &menu::pictureBox9_Click);
 			// 
 			// menu
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(572, 401);
-			this->Controls->Add(this->btbT7);
-			this->Controls->Add(this->btbT6);
-			this->Controls->Add(this->btbT2);
-			this->Controls->Add(this->btbT3);
-			this->Controls->Add(this->btbT4);
-			this->Controls->Add(this->btbT5);
-			this->Controls->Add(this->btbT1);
+			this->BackColor = System::Drawing::Color::Black;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->ClientSize = System::Drawing::Size(706, 544);
+			this->Controls->Add(this->pictureBox9);
+			this->Controls->Add(this->pictureBox8);
+			this->Controls->Add(this->pictureBox7);
+			this->Controls->Add(this->pictureBox6);
+			this->Controls->Add(this->pictureBox5);
+			this->Controls->Add(this->pictureBox4);
+			this->Controls->Add(this->pictureBox3);
+			this->Controls->Add(this->pictureBox2);
+			this->Controls->Add(this->pictureBox1);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"menu";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"menu";
+			this->TransparencyKey = System::Drawing::Color::LightGray;
+			this->Load += gcnew System::EventHandler(this, &menu::menu_Load);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox6))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox7))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox8))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox9))->EndInit();
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
 	private: System::Void btbT1_Click(System::Object^ sender, System::EventArgs^ e) {
-		estadistica::Teorema1^ teorema = gcnew estadistica::Teorema1();
-		teorema->Show();
+		//estadistica::Teorema1^ teorema = gcnew estadistica::Teorema1();
+		//teorema->Show();
 
 	}
 private: System::Void btbT2_Click(System::Object^ sender, System::EventArgs^ e) {
+	//estadistica::Teorema2^ teorema = gcnew estadistica::Teorema2();
+	//teorema->Show();
+}
+private: System::Void btbT3_Click(System::Object^ sender, System::EventArgs^ e) {
+	//estadistica::Teorena3^ teorema = gcnew estadistica::Teorena3();
+	//teorema->Show();
+}
+private: System::Void btbT6_Click(System::Object^ sender, System::EventArgs^ e) {
+	//estadistica::Teorema6^ teorema = gcnew estadistica::Teorema6();
+	//teorema->Show();
+}
+private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
+	estadistica::Teorema1^ teorema = gcnew estadistica::Teorema1();
+	teorema->Show();
+	this->Close();
+}
+private: System::Void pictureBox2_Click(System::Object^ sender, System::EventArgs^ e) {
 	estadistica::Teorema2^ teorema = gcnew estadistica::Teorema2();
 	teorema->Show();
 }
-private: System::Void btbT3_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void pictureBox3_Click(System::Object^ sender, System::EventArgs^ e) {
 	estadistica::Teorena3^ teorema = gcnew estadistica::Teorena3();
 	teorema->Show();
 }
-private: System::Void btbT6_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void pictureBox5_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void pictureBox4_Click(System::Object^ sender, System::EventArgs^ e) {
 	estadistica::Teorema6^ teorema = gcnew estadistica::Teorema6();
 	teorema->Show();
+}
+private: System::Void pictureBox9_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->Close();
+}
+private: System::Void menu_Load(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }
